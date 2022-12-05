@@ -39,4 +39,13 @@ const styles = StyleSheet.create({
     color: theme.colors.error,
     paddingTop: 8,
   },
+  textAreaContainer: {
+    borderColor: COLORS.grey20,
+    borderWidth: 1,
+    padding: 5
+  },
+  textArea: {
+    height: 150,
+    justifyContent: "flex-start"
+  },
 })

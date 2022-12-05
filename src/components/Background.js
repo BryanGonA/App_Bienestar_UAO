@@ -13,6 +13,7 @@ export default function Background({ children }) {
         {children}
       </KeyboardAvoidingView>
     </ImageBackground>
+    
   )
 }
 
