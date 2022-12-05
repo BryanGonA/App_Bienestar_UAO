@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import *as React from 'react'
 import { TouchableOpacity, StyleSheet, View} from 'react-native'
 import { Text } from 'react-native-paper'
 import Background from '../components/Background'
@@ -25,7 +25,7 @@ export default function ContactSuport ({id, navigation}){
 
             navigation.reset({
                 index: 0,
-                routes: [{ name: 'Dashboard' }],
+                routes: [{ name: 'StarScreen' }],
             })
     }
 
